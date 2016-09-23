@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  THSDKPro
+//
+//  Created by 阳书成 on 16/8/30.
+//  Copyright © 2016年 阳书成. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//http://192.168.163.38:8080/payment-access
+
+
+#endif /* PrefixHeader_pch */
+//#import "THNetworkTool.h"
+//#import "AppDelegate.h"
+#define kBtnCorner 5
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define iOS8before [[UIDevice currentDevice].systemVersion floatValue] < 8.0
+#define kViewBgColor [UIColor colorWithRed:244/255.0 green:244/255.0 blue:244/255.0 alpha:1]
+#define kBtnBgColor [UIColor colorWithRed:253/255.0 green:78/255.0 blue:84/255.0 alpha:1]
+#define kPayNaviBgColor [UIColor colorWithRed:250/255.0 green:47/255.0 blue:47/255.0 alpha:1]
+#define kBtnBgUnableColor [UIColor colorWithRed:180/255.0 green:180/255.0 blue:180/255.0 alpha:1]
+#define GET(transcode) [NSString stringWithFormat:@"http://192.168.163.38:8080/payment-access/%@?appid=TIANHONG_APPID&secret=TIANHONG_SECRET",transcode]
+#define POST(transcode) [NSString stringWithFormat:@"http://192.168.163.38:8080/payment-access/%@",transcode]
+
+#define kKeyboardPublickey @"97761b4343e07e540527a627d716563174f14960624772b75e9bec30c7abe7892653f3e773f61c517b7c4490d8aac2142e071ae5668a896391b3dd704fb7d8f52e15369b7f023b03032e00f0ac6bdd6b1b7859c09f48fbf5b577b1c1a61e3b44359facba746f300702d52fb753d5ed011d62fee580be14ad92cbc5614b5e7a4b"

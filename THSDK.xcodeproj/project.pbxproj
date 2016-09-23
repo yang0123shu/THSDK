@@ -7,15 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342EA586AE5A0C6E00726951 /* Pods_THSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00670FD13F5F210C063601CC /* Pods_THSDK.framework */; };
 		A5F67CC61D937A1C00B0447D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67CC51D937A1C00B0447D /* main.m */; };
 		A5F67CC91D937A1C00B0447D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67CC81D937A1C00B0447D /* AppDelegate.m */; };
 		A5F67CCC1D937A1C00B0447D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67CCB1D937A1C00B0447D /* ViewController.m */; };
 		A5F67CCF1D937A1C00B0447D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F67CCD1D937A1C00B0447D /* Main.storyboard */; };
 		A5F67CD11D937A1C00B0447D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F67CD01D937A1C00B0447D /* Assets.xcassets */; };
 		A5F67CD41D937A1C00B0447D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F67CD21D937A1C00B0447D /* LaunchScreen.storyboard */; };
+		A5F67D511D937D9A00B0447D /* 关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F67CDB1D937D9A00B0447D /* 关闭.png */; };
+		A5F67D521D937D9A00B0447D /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67CDD1D937D9A00B0447D /* Base64.m */; };
+		A5F67D531D937D9A00B0447D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67CDF1D937D9A00B0447D /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5F67D541D937D9A00B0447D /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D2F1D937D9A00B0447D /* JKCountDownButton.m */; };
+		A5F67D551D937D9A00B0447D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D311D937D9A00B0447D /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5F67D561D937D9A00B0447D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F67D321D937D9A00B0447D /* libcrypto.a */; };
+		A5F67D571D937D9A00B0447D /* libPowerEnterRAINBOW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F67D331D937D9A00B0447D /* libPowerEnterRAINBOW.a */; };
+		A5F67D581D937D9A00B0447D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F67D341D937D9A00B0447D /* libssl.a */; };
+		A5F67D591D937D9A00B0447D /* LiuXSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D361D937D9A00B0447D /* LiuXSegmentView.m */; };
+		A5F67D5A1D937D9A00B0447D /* LXSegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D381D937D9A00B0447D /* LXSegmentScrollView.m */; };
+		A5F67D5B1D937D9A00B0447D /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D3A1D937D9A00B0447D /* Order.m */; };
+		A5F67D5C1D937D9A00B0447D /* PainObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D3C1D937D9A00B0447D /* PainObj.m */; };
+		A5F67D5D1D937D9A00B0447D /* PainObjDto.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D3E1D937D9A00B0447D /* PainObjDto.m */; };
+		A5F67D5E1D937D9A00B0447D /* PopPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D401D937D9A00B0447D /* PopPasswordView.m */; };
+		A5F67D5F1D937D9A00B0447D /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D431D937D9A00B0447D /* public_key.der */; };
+		A5F67D601D937D9A00B0447D /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D451D937D9A00B0447D /* RSAEncryptor.m */; };
+		A5F67D611D937D9A00B0447D /* THCryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D471D937D9A00B0447D /* THCryptTool.m */; };
+		A5F67D621D937D9A00B0447D /* THNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D491D937D9A00B0447D /* THNetworkTool.m */; };
+		A5F67D631D937D9A00B0447D /* THStatusReuqestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D4B1D937D9A00B0447D /* THStatusReuqestViewController.m */; };
+		A5F67D641D937D9A00B0447D /* TTPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D4E1D937D9A00B0447D /* TTPasswordView.m */; };
+		A5F67D651D937D9A00B0447D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D501D937D9A00B0447D /* User.m */; };
+		A5F67DD31D937EC900B0447D /* CKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D671D937EC900B0447D /* CKAlertViewController.m */; };
+		A5F67DD41D937EC900B0447D /* THAssetsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D691D937EC900B0447D /* THAssetsDetailViewController.m */; };
+		A5F67DD51D937EC900B0447D /* THAssetsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D6A1D937EC900B0447D /* THAssetsDetailViewController.xib */; };
+		A5F67DD61D937EC900B0447D /* THAssetsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D6C1D937EC900B0447D /* THAssetsTableViewCell.m */; };
+		A5F67DD71D937EC900B0447D /* THAssetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D6D1D937EC900B0447D /* THAssetsTableViewCell.xib */; };
+		A5F67DD81D937EC900B0447D /* THBindingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D6F1D937EC900B0447D /* THBindingCardViewController.m */; };
+		A5F67DD91D937EC900B0447D /* THBindingCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D701D937EC900B0447D /* THBindingCardViewController.xib */; };
+		A5F67DDA1D937EC900B0447D /* THBuycardHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D721D937EC900B0447D /* THBuycardHistoryViewController.m */; };
+		A5F67DDB1D937EC900B0447D /* THBuycardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D741D937EC900B0447D /* THBuycardTableViewCell.m */; };
+		A5F67DDC1D937EC900B0447D /* THBuycardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D751D937EC900B0447D /* THBuycardTableViewCell.xib */; };
+		A5F67DDD1D937EC900B0447D /* THBuyShoppingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D771D937EC900B0447D /* THBuyShoppingCardViewController.m */; };
+		A5F67DDE1D937EC900B0447D /* THBuyShoppingCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D781D937EC900B0447D /* THBuyShoppingCardViewController.xib */; };
+		A5F67DDF1D937EC900B0447D /* THCardOptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D7A1D937EC900B0447D /* THCardOptionTableViewCell.m */; };
+		A5F67DE01D937EC900B0447D /* THCardOptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D7B1D937EC900B0447D /* THCardOptionTableViewCell.xib */; };
+		A5F67DE11D937EC900B0447D /* THCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D7D1D937EC900B0447D /* THCardTableViewCell.m */; };
+		A5F67DE21D937EC900B0447D /* THCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D7E1D937EC900B0447D /* THCardTableViewCell.xib */; };
+		A5F67DE31D937EC900B0447D /* THCodeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D801D937EC900B0447D /* THCodeImageViewController.m */; };
+		A5F67DE41D937EC900B0447D /* THCodeImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D811D937EC900B0447D /* THCodeImageViewController.xib */; };
+		A5F67DE51D937EC900B0447D /* THForgetPWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D831D937EC900B0447D /* THForgetPWDViewController.m */; };
+		A5F67DE61D937EC900B0447D /* THForgetPWDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D841D937EC900B0447D /* THForgetPWDViewController.xib */; };
+		A5F67DE71D937EC900B0447D /* THFreePwdSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D861D937EC900B0447D /* THFreePwdSettingTableViewCell.m */; };
+		A5F67DE81D937EC900B0447D /* THFreePwdSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D871D937EC900B0447D /* THFreePwdSettingTableViewCell.xib */; };
+		A5F67DE91D937EC900B0447D /* THFreePWDSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D891D937EC900B0447D /* THFreePWDSettingTableViewController.m */; };
+		A5F67DEA1D937EC900B0447D /* THIdentityVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D8B1D937EC900B0447D /* THIdentityVerifyViewController.m */; };
+		A5F67DEB1D937EC900B0447D /* THIdentityVerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D8C1D937EC900B0447D /* THIdentityVerifyViewController.xib */; };
+		A5F67DEC1D937EC900B0447D /* THInvoiceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D8E1D937EC900B0447D /* THInvoiceInfoViewController.m */; };
+		A5F67DED1D937EC900B0447D /* THInvoiceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D8F1D937EC900B0447D /* THInvoiceInfoViewController.xib */; };
+		A5F67DEE1D937EC900B0447D /* THModifyQuickPWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D911D937EC900B0447D /* THModifyQuickPWDViewController.m */; };
+		A5F67DEF1D937EC900B0447D /* THModifyQuickPWDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D921D937EC900B0447D /* THModifyQuickPWDViewController.xib */; };
+		A5F67DF01D937EC900B0447D /* THMyShoppingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D941D937EC900B0447D /* THMyShoppingCardViewController.m */; };
+		A5F67DF11D937EC900B0447D /* THMyShoppingCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D951D937EC900B0447D /* THMyShoppingCardViewController.xib */; };
+		A5F67DF21D937EC900B0447D /* THNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D971D937EC900B0447D /* THNavigationController.m */; };
+		A5F67DF31D937EC900B0447D /* THOffSolvedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D991D937EC900B0447D /* THOffSolvedViewController.m */; };
+		A5F67DF41D937EC900B0447D /* THOffSolvedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D9A1D937EC900B0447D /* THOffSolvedViewController.xib */; };
+		A5F67DF51D937EC900B0447D /* THOnSolvedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D9C1D937EC900B0447D /* THOnSolvedViewController.m */; };
+		A5F67DF61D937EC900B0447D /* THOnSolvedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67D9D1D937EC900B0447D /* THOnSolvedViewController.xib */; };
+		A5F67DF71D937EC900B0447D /* THOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67D9F1D937EC900B0447D /* THOrderDetailViewController.m */; };
+		A5F67DF81D937EC900B0447D /* THOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DA01D937EC900B0447D /* THOrderDetailViewController.xib */; };
+		A5F67DF91D937EC900B0447D /* THOrderInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DA21D937EC900B0447D /* THOrderInfoTableViewCell.m */; };
+		A5F67DFA1D937EC900B0447D /* THOrderInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DA31D937EC900B0447D /* THOrderInfoTableViewCell.xib */; };
+		A5F67DFB1D937EC900B0447D /* THPaySettingCheckTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DA51D937EC900B0447D /* THPaySettingCheckTableViewCell.m */; };
+		A5F67DFC1D937EC900B0447D /* THPaySettingCheckTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DA61D937EC900B0447D /* THPaySettingCheckTableViewCell.xib */; };
+		A5F67DFD1D937EC900B0447D /* THPaySettingNomalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DA81D937EC900B0447D /* THPaySettingNomalTableViewCell.m */; };
+		A5F67DFE1D937EC900B0447D /* THPaySettingNomalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DA91D937EC900B0447D /* THPaySettingNomalTableViewCell.xib */; };
+		A5F67DFF1D937EC900B0447D /* THPaySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DAB1D937EC900B0447D /* THPaySettingViewController.m */; };
+		A5F67E001D937EC900B0447D /* THPaySettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DAC1D937EC900B0447D /* THPaySettingViewController.xib */; };
+		A5F67E011D937EC900B0447D /* THPaySuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DAE1D937EC900B0447D /* THPaySuccessViewController.m */; };
+		A5F67E021D937EC900B0447D /* THPaySuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DAF1D937EC900B0447D /* THPaySuccessViewController.xib */; };
+		A5F67E031D937EC900B0447D /* THPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DB11D937EC900B0447D /* THPayViewController.m */; };
+		A5F67E041D937EC900B0447D /* THPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DB21D937EC900B0447D /* THPayViewController.xib */; };
+		A5F67E051D937EC900B0447D /* THRootCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DB41D937EC900B0447D /* THRootCollectionViewCell.m */; };
+		A5F67E061D937EC900B0447D /* THRootCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DB51D937EC900B0447D /* THRootCollectionViewCell.xib */; };
+		A5F67E071D937EC900B0447D /* THRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DB71D937EC900B0447D /* THRootViewController.m */; };
+		A5F67E081D937EC900B0447D /* THRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DB81D937EC900B0447D /* THRootViewController.xib */; };
+		A5F67E091D937EC900B0447D /* THSetPWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DBA1D937EC900B0447D /* THSetPWDViewController.m */; };
+		A5F67E0A1D937EC900B0447D /* THSetPWDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DBB1D937EC900B0447D /* THSetPWDViewController.xib */; };
+		A5F67E0B1D937EC900B0447D /* THShoppingCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DBD1D937EC900B0447D /* THShoppingCardDetailViewController.m */; };
+		A5F67E0C1D937EC900B0447D /* THShoppingCardDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DBE1D937EC900B0447D /* THShoppingCardDetailViewController.xib */; };
+		A5F67E0D1D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DC01D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.m */; };
+		A5F67E0E1D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DC11D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.xib */; };
+		A5F67E0F1D937EC900B0447D /* THShoppingCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DC31D937EC900B0447D /* THShoppingCardTableViewCell.m */; };
+		A5F67E101D937EC900B0447D /* THShoppingCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DC41D937EC900B0447D /* THShoppingCardTableViewCell.xib */; };
+		A5F67E131D937EC900B0447D /* THStopPayCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DC91D937EC900B0447D /* THStopPayCodeViewController.m */; };
+		A5F67E141D937EC900B0447D /* THStopPayCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DCA1D937EC900B0447D /* THStopPayCodeViewController.xib */; };
+		A5F67E151D937EC900B0447D /* THTradeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DCC1D937EC900B0447D /* THTradeDetailTableViewCell.m */; };
+		A5F67E161D937EC900B0447D /* THTradeDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DCD1D937EC900B0447D /* THTradeDetailTableViewCell.xib */; };
+		A5F67E171D937EC900B0447D /* THTradeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DCF1D937EC900B0447D /* THTradeDetailTableViewController.m */; };
+		A5F67E181D937EC900B0447D /* THTradeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F67DD11D937EC900B0447D /* THTradeDetailViewController.m */; };
+		A5F67E191D937EC900B0447D /* THTradeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F67DD21D937EC900B0447D /* THTradeDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00670FD13F5F210C063601CC /* Pods_THSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F67CC11D937A1C00B0447D /* THSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F67CC51D937A1C00B0447D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F67CC71D937A1C00B0447D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +118,230 @@
 		A5F67CD01D937A1C00B0447D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F67CD31D937A1C00B0447D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5F67CD51D937A1C00B0447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F67CDB1D937D9A00B0447D /* 关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭.png"; sourceTree = "<group>"; };
+		A5F67CDC1D937D9A00B0447D /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		A5F67CDD1D937D9A00B0447D /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		A5F67CDE1D937D9A00B0447D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		A5F67CDF1D937D9A00B0447D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		A5F67CE01D937D9A00B0447D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		A5F67CE31D937D9A00B0447D /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		A5F67CE41D937D9A00B0447D /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		A5F67CE51D937D9A00B0447D /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		A5F67CE61D937D9A00B0447D /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		A5F67CE71D937D9A00B0447D /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		A5F67CE81D937D9A00B0447D /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		A5F67CE91D937D9A00B0447D /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		A5F67CEA1D937D9A00B0447D /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		A5F67CEB1D937D9A00B0447D /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		A5F67CEC1D937D9A00B0447D /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		A5F67CED1D937D9A00B0447D /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		A5F67CEE1D937D9A00B0447D /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		A5F67CEF1D937D9A00B0447D /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		A5F67CF01D937D9A00B0447D /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		A5F67CF11D937D9A00B0447D /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		A5F67CF21D937D9A00B0447D /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		A5F67CF31D937D9A00B0447D /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		A5F67CF41D937D9A00B0447D /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		A5F67CF51D937D9A00B0447D /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		A5F67CF61D937D9A00B0447D /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		A5F67CF71D937D9A00B0447D /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		A5F67CF81D937D9A00B0447D /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		A5F67CF91D937D9A00B0447D /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		A5F67CFA1D937D9A00B0447D /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		A5F67CFB1D937D9A00B0447D /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		A5F67CFC1D937D9A00B0447D /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		A5F67CFD1D937D9A00B0447D /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		A5F67CFE1D937D9A00B0447D /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		A5F67CFF1D937D9A00B0447D /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		A5F67D001D937D9A00B0447D /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		A5F67D011D937D9A00B0447D /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		A5F67D021D937D9A00B0447D /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		A5F67D031D937D9A00B0447D /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		A5F67D041D937D9A00B0447D /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		A5F67D051D937D9A00B0447D /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		A5F67D061D937D9A00B0447D /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		A5F67D071D937D9A00B0447D /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		A5F67D081D937D9A00B0447D /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		A5F67D091D937D9A00B0447D /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		A5F67D0A1D937D9A00B0447D /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		A5F67D0B1D937D9A00B0447D /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		A5F67D0C1D937D9A00B0447D /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		A5F67D0D1D937D9A00B0447D /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		A5F67D0E1D937D9A00B0447D /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		A5F67D0F1D937D9A00B0447D /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		A5F67D101D937D9A00B0447D /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		A5F67D111D937D9A00B0447D /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		A5F67D121D937D9A00B0447D /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		A5F67D131D937D9A00B0447D /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		A5F67D141D937D9A00B0447D /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		A5F67D151D937D9A00B0447D /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		A5F67D161D937D9A00B0447D /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		A5F67D171D937D9A00B0447D /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		A5F67D181D937D9A00B0447D /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		A5F67D191D937D9A00B0447D /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		A5F67D1A1D937D9A00B0447D /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		A5F67D1B1D937D9A00B0447D /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		A5F67D1C1D937D9A00B0447D /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		A5F67D1D1D937D9A00B0447D /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		A5F67D1E1D937D9A00B0447D /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		A5F67D1F1D937D9A00B0447D /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		A5F67D201D937D9A00B0447D /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		A5F67D211D937D9A00B0447D /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		A5F67D221D937D9A00B0447D /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		A5F67D231D937D9A00B0447D /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		A5F67D241D937D9A00B0447D /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		A5F67D251D937D9A00B0447D /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		A5F67D261D937D9A00B0447D /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		A5F67D271D937D9A00B0447D /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		A5F67D281D937D9A00B0447D /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		A5F67D291D937D9A00B0447D /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		A5F67D2A1D937D9A00B0447D /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		A5F67D2B1D937D9A00B0447D /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		A5F67D2C1D937D9A00B0447D /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		A5F67D2D1D937D9A00B0447D /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		A5F67D2E1D937D9A00B0447D /* JKCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCountDownButton.h; sourceTree = "<group>"; };
+		A5F67D2F1D937D9A00B0447D /* JKCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCountDownButton.m; sourceTree = "<group>"; };
+		A5F67D301D937D9A00B0447D /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		A5F67D311D937D9A00B0447D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		A5F67D321D937D9A00B0447D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		A5F67D331D937D9A00B0447D /* libPowerEnterRAINBOW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPowerEnterRAINBOW.a; sourceTree = "<group>"; };
+		A5F67D341D937D9A00B0447D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		A5F67D351D937D9A00B0447D /* LiuXSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiuXSegmentView.h; sourceTree = "<group>"; };
+		A5F67D361D937D9A00B0447D /* LiuXSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiuXSegmentView.m; sourceTree = "<group>"; };
+		A5F67D371D937D9A00B0447D /* LXSegmentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSegmentScrollView.h; sourceTree = "<group>"; };
+		A5F67D381D937D9A00B0447D /* LXSegmentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSegmentScrollView.m; sourceTree = "<group>"; };
+		A5F67D391D937D9A00B0447D /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		A5F67D3A1D937D9A00B0447D /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		A5F67D3B1D937D9A00B0447D /* PainObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainObj.h; sourceTree = "<group>"; };
+		A5F67D3C1D937D9A00B0447D /* PainObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainObj.m; sourceTree = "<group>"; };
+		A5F67D3D1D937D9A00B0447D /* PainObjDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainObjDto.h; sourceTree = "<group>"; };
+		A5F67D3E1D937D9A00B0447D /* PainObjDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainObjDto.m; sourceTree = "<group>"; };
+		A5F67D3F1D937D9A00B0447D /* PopPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopPasswordView.h; sourceTree = "<group>"; };
+		A5F67D401D937D9A00B0447D /* PopPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopPasswordView.m; sourceTree = "<group>"; };
+		A5F67D411D937D9A00B0447D /* PowerEnterUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerEnterUITextField.h; sourceTree = "<group>"; };
+		A5F67D421D937D9A00B0447D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5F67D431D937D9A00B0447D /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		A5F67D441D937D9A00B0447D /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		A5F67D451D937D9A00B0447D /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		A5F67D461D937D9A00B0447D /* THCryptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCryptTool.h; sourceTree = "<group>"; };
+		A5F67D471D937D9A00B0447D /* THCryptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCryptTool.m; sourceTree = "<group>"; };
+		A5F67D481D937D9A00B0447D /* THNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNetworkTool.h; sourceTree = "<group>"; };
+		A5F67D491D937D9A00B0447D /* THNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNetworkTool.m; sourceTree = "<group>"; };
+		A5F67D4A1D937D9A00B0447D /* THStatusReuqestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THStatusReuqestViewController.h; sourceTree = "<group>"; };
+		A5F67D4B1D937D9A00B0447D /* THStatusReuqestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THStatusReuqestViewController.m; sourceTree = "<group>"; };
+		A5F67D4C1D937D9A00B0447D /* TTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConst.h; sourceTree = "<group>"; };
+		A5F67D4D1D937D9A00B0447D /* TTPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPasswordView.h; sourceTree = "<group>"; };
+		A5F67D4E1D937D9A00B0447D /* TTPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPasswordView.m; sourceTree = "<group>"; };
+		A5F67D4F1D937D9A00B0447D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A5F67D501D937D9A00B0447D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A5F67D661D937EC900B0447D /* CKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAlertViewController.h; sourceTree = "<group>"; };
+		A5F67D671D937EC900B0447D /* CKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertViewController.m; sourceTree = "<group>"; };
+		A5F67D681D937EC900B0447D /* THAssetsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAssetsDetailViewController.h; sourceTree = "<group>"; };
+		A5F67D691D937EC900B0447D /* THAssetsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAssetsDetailViewController.m; sourceTree = "<group>"; };
+		A5F67D6A1D937EC900B0447D /* THAssetsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THAssetsDetailViewController.xib; sourceTree = "<group>"; };
+		A5F67D6B1D937EC900B0447D /* THAssetsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAssetsTableViewCell.h; sourceTree = "<group>"; };
+		A5F67D6C1D937EC900B0447D /* THAssetsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAssetsTableViewCell.m; sourceTree = "<group>"; };
+		A5F67D6D1D937EC900B0447D /* THAssetsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THAssetsTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67D6E1D937EC900B0447D /* THBindingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBindingCardViewController.h; sourceTree = "<group>"; };
+		A5F67D6F1D937EC900B0447D /* THBindingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBindingCardViewController.m; sourceTree = "<group>"; };
+		A5F67D701D937EC900B0447D /* THBindingCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THBindingCardViewController.xib; sourceTree = "<group>"; };
+		A5F67D711D937EC900B0447D /* THBuycardHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBuycardHistoryViewController.h; sourceTree = "<group>"; };
+		A5F67D721D937EC900B0447D /* THBuycardHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBuycardHistoryViewController.m; sourceTree = "<group>"; };
+		A5F67D731D937EC900B0447D /* THBuycardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBuycardTableViewCell.h; sourceTree = "<group>"; };
+		A5F67D741D937EC900B0447D /* THBuycardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBuycardTableViewCell.m; sourceTree = "<group>"; };
+		A5F67D751D937EC900B0447D /* THBuycardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THBuycardTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67D761D937EC900B0447D /* THBuyShoppingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBuyShoppingCardViewController.h; sourceTree = "<group>"; };
+		A5F67D771D937EC900B0447D /* THBuyShoppingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBuyShoppingCardViewController.m; sourceTree = "<group>"; };
+		A5F67D781D937EC900B0447D /* THBuyShoppingCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THBuyShoppingCardViewController.xib; sourceTree = "<group>"; };
+		A5F67D791D937EC900B0447D /* THCardOptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCardOptionTableViewCell.h; sourceTree = "<group>"; };
+		A5F67D7A1D937EC900B0447D /* THCardOptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCardOptionTableViewCell.m; sourceTree = "<group>"; };
+		A5F67D7B1D937EC900B0447D /* THCardOptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THCardOptionTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67D7C1D937EC900B0447D /* THCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCardTableViewCell.h; sourceTree = "<group>"; };
+		A5F67D7D1D937EC900B0447D /* THCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCardTableViewCell.m; sourceTree = "<group>"; };
+		A5F67D7E1D937EC900B0447D /* THCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THCardTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67D7F1D937EC900B0447D /* THCodeImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCodeImageViewController.h; sourceTree = "<group>"; };
+		A5F67D801D937EC900B0447D /* THCodeImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCodeImageViewController.m; sourceTree = "<group>"; };
+		A5F67D811D937EC900B0447D /* THCodeImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THCodeImageViewController.xib; sourceTree = "<group>"; };
+		A5F67D821D937EC900B0447D /* THForgetPWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THForgetPWDViewController.h; sourceTree = "<group>"; };
+		A5F67D831D937EC900B0447D /* THForgetPWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THForgetPWDViewController.m; sourceTree = "<group>"; };
+		A5F67D841D937EC900B0447D /* THForgetPWDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THForgetPWDViewController.xib; sourceTree = "<group>"; };
+		A5F67D851D937EC900B0447D /* THFreePwdSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THFreePwdSettingTableViewCell.h; sourceTree = "<group>"; };
+		A5F67D861D937EC900B0447D /* THFreePwdSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THFreePwdSettingTableViewCell.m; sourceTree = "<group>"; };
+		A5F67D871D937EC900B0447D /* THFreePwdSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THFreePwdSettingTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67D881D937EC900B0447D /* THFreePWDSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THFreePWDSettingTableViewController.h; sourceTree = "<group>"; };
+		A5F67D891D937EC900B0447D /* THFreePWDSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THFreePWDSettingTableViewController.m; sourceTree = "<group>"; };
+		A5F67D8A1D937EC900B0447D /* THIdentityVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THIdentityVerifyViewController.h; sourceTree = "<group>"; };
+		A5F67D8B1D937EC900B0447D /* THIdentityVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THIdentityVerifyViewController.m; sourceTree = "<group>"; };
+		A5F67D8C1D937EC900B0447D /* THIdentityVerifyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THIdentityVerifyViewController.xib; sourceTree = "<group>"; };
+		A5F67D8D1D937EC900B0447D /* THInvoiceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THInvoiceInfoViewController.h; sourceTree = "<group>"; };
+		A5F67D8E1D937EC900B0447D /* THInvoiceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THInvoiceInfoViewController.m; sourceTree = "<group>"; };
+		A5F67D8F1D937EC900B0447D /* THInvoiceInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THInvoiceInfoViewController.xib; sourceTree = "<group>"; };
+		A5F67D901D937EC900B0447D /* THModifyQuickPWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THModifyQuickPWDViewController.h; sourceTree = "<group>"; };
+		A5F67D911D937EC900B0447D /* THModifyQuickPWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THModifyQuickPWDViewController.m; sourceTree = "<group>"; };
+		A5F67D921D937EC900B0447D /* THModifyQuickPWDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THModifyQuickPWDViewController.xib; sourceTree = "<group>"; };
+		A5F67D931D937EC900B0447D /* THMyShoppingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMyShoppingCardViewController.h; sourceTree = "<group>"; };
+		A5F67D941D937EC900B0447D /* THMyShoppingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMyShoppingCardViewController.m; sourceTree = "<group>"; };
+		A5F67D951D937EC900B0447D /* THMyShoppingCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THMyShoppingCardViewController.xib; sourceTree = "<group>"; };
+		A5F67D961D937EC900B0447D /* THNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNavigationController.h; sourceTree = "<group>"; };
+		A5F67D971D937EC900B0447D /* THNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNavigationController.m; sourceTree = "<group>"; };
+		A5F67D981D937EC900B0447D /* THOffSolvedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THOffSolvedViewController.h; sourceTree = "<group>"; };
+		A5F67D991D937EC900B0447D /* THOffSolvedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THOffSolvedViewController.m; sourceTree = "<group>"; };
+		A5F67D9A1D937EC900B0447D /* THOffSolvedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THOffSolvedViewController.xib; sourceTree = "<group>"; };
+		A5F67D9B1D937EC900B0447D /* THOnSolvedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THOnSolvedViewController.h; sourceTree = "<group>"; };
+		A5F67D9C1D937EC900B0447D /* THOnSolvedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THOnSolvedViewController.m; sourceTree = "<group>"; };
+		A5F67D9D1D937EC900B0447D /* THOnSolvedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THOnSolvedViewController.xib; sourceTree = "<group>"; };
+		A5F67D9E1D937EC900B0447D /* THOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THOrderDetailViewController.h; sourceTree = "<group>"; };
+		A5F67D9F1D937EC900B0447D /* THOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THOrderDetailViewController.m; sourceTree = "<group>"; };
+		A5F67DA01D937EC900B0447D /* THOrderDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THOrderDetailViewController.xib; sourceTree = "<group>"; };
+		A5F67DA11D937EC900B0447D /* THOrderInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THOrderInfoTableViewCell.h; sourceTree = "<group>"; };
+		A5F67DA21D937EC900B0447D /* THOrderInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THOrderInfoTableViewCell.m; sourceTree = "<group>"; };
+		A5F67DA31D937EC900B0447D /* THOrderInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THOrderInfoTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67DA41D937EC900B0447D /* THPaySettingCheckTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPaySettingCheckTableViewCell.h; sourceTree = "<group>"; };
+		A5F67DA51D937EC900B0447D /* THPaySettingCheckTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPaySettingCheckTableViewCell.m; sourceTree = "<group>"; };
+		A5F67DA61D937EC900B0447D /* THPaySettingCheckTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPaySettingCheckTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67DA71D937EC900B0447D /* THPaySettingNomalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPaySettingNomalTableViewCell.h; sourceTree = "<group>"; };
+		A5F67DA81D937EC900B0447D /* THPaySettingNomalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPaySettingNomalTableViewCell.m; sourceTree = "<group>"; };
+		A5F67DA91D937EC900B0447D /* THPaySettingNomalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPaySettingNomalTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67DAA1D937EC900B0447D /* THPaySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPaySettingViewController.h; sourceTree = "<group>"; };
+		A5F67DAB1D937EC900B0447D /* THPaySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPaySettingViewController.m; sourceTree = "<group>"; };
+		A5F67DAC1D937EC900B0447D /* THPaySettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPaySettingViewController.xib; sourceTree = "<group>"; };
+		A5F67DAD1D937EC900B0447D /* THPaySuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPaySuccessViewController.h; sourceTree = "<group>"; };
+		A5F67DAE1D937EC900B0447D /* THPaySuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPaySuccessViewController.m; sourceTree = "<group>"; };
+		A5F67DAF1D937EC900B0447D /* THPaySuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPaySuccessViewController.xib; sourceTree = "<group>"; };
+		A5F67DB01D937EC900B0447D /* THPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPayViewController.h; sourceTree = "<group>"; };
+		A5F67DB11D937EC900B0447D /* THPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPayViewController.m; sourceTree = "<group>"; };
+		A5F67DB21D937EC900B0447D /* THPayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPayViewController.xib; sourceTree = "<group>"; };
+		A5F67DB31D937EC900B0447D /* THRootCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRootCollectionViewCell.h; sourceTree = "<group>"; };
+		A5F67DB41D937EC900B0447D /* THRootCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THRootCollectionViewCell.m; sourceTree = "<group>"; };
+		A5F67DB51D937EC900B0447D /* THRootCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THRootCollectionViewCell.xib; sourceTree = "<group>"; };
+		A5F67DB61D937EC900B0447D /* THRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRootViewController.h; sourceTree = "<group>"; };
+		A5F67DB71D937EC900B0447D /* THRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THRootViewController.m; sourceTree = "<group>"; };
+		A5F67DB81D937EC900B0447D /* THRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THRootViewController.xib; sourceTree = "<group>"; };
+		A5F67DB91D937EC900B0447D /* THSetPWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSetPWDViewController.h; sourceTree = "<group>"; };
+		A5F67DBA1D937EC900B0447D /* THSetPWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSetPWDViewController.m; sourceTree = "<group>"; };
+		A5F67DBB1D937EC900B0447D /* THSetPWDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THSetPWDViewController.xib; sourceTree = "<group>"; };
+		A5F67DBC1D937EC900B0447D /* THShoppingCardDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THShoppingCardDetailViewController.h; sourceTree = "<group>"; };
+		A5F67DBD1D937EC900B0447D /* THShoppingCardDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THShoppingCardDetailViewController.m; sourceTree = "<group>"; };
+		A5F67DBE1D937EC900B0447D /* THShoppingCardDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THShoppingCardDetailViewController.xib; sourceTree = "<group>"; };
+		A5F67DBF1D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THShoppingCardOutTimeDetialViewController.h; sourceTree = "<group>"; };
+		A5F67DC01D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THShoppingCardOutTimeDetialViewController.m; sourceTree = "<group>"; };
+		A5F67DC11D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THShoppingCardOutTimeDetialViewController.xib; sourceTree = "<group>"; };
+		A5F67DC21D937EC900B0447D /* THShoppingCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THShoppingCardTableViewCell.h; sourceTree = "<group>"; };
+		A5F67DC31D937EC900B0447D /* THShoppingCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THShoppingCardTableViewCell.m; sourceTree = "<group>"; };
+		A5F67DC41D937EC900B0447D /* THShoppingCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THShoppingCardTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67DC81D937EC900B0447D /* THStopPayCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THStopPayCodeViewController.h; sourceTree = "<group>"; };
+		A5F67DC91D937EC900B0447D /* THStopPayCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THStopPayCodeViewController.m; sourceTree = "<group>"; };
+		A5F67DCA1D937EC900B0447D /* THStopPayCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THStopPayCodeViewController.xib; sourceTree = "<group>"; };
+		A5F67DCB1D937EC900B0447D /* THTradeDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTradeDetailTableViewCell.h; sourceTree = "<group>"; };
+		A5F67DCC1D937EC900B0447D /* THTradeDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTradeDetailTableViewCell.m; sourceTree = "<group>"; };
+		A5F67DCD1D937EC900B0447D /* THTradeDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THTradeDetailTableViewCell.xib; sourceTree = "<group>"; };
+		A5F67DCE1D937EC900B0447D /* THTradeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTradeDetailTableViewController.h; sourceTree = "<group>"; };
+		A5F67DCF1D937EC900B0447D /* THTradeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTradeDetailTableViewController.m; sourceTree = "<group>"; };
+		A5F67DD01D937EC900B0447D /* THTradeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTradeDetailViewController.h; sourceTree = "<group>"; };
+		A5F67DD11D937EC900B0447D /* THTradeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTradeDetailViewController.m; sourceTree = "<group>"; };
+		A5F67DD21D937EC900B0447D /* THTradeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THTradeDetailViewController.xib; sourceTree = "<group>"; };
+		C77DD80B3AC8024DE9EE7606 /* Pods-THSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSDK/Pods-THSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D2EF5652BC31F9A61B423053 /* Pods-THSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-THSDK/Pods-THSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +349,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F67D581D937D9A00B0447D /* libssl.a in Frameworks */,
+				A5F67D561D937D9A00B0447D /* libcrypto.a in Frameworks */,
+				342EA586AE5A0C6E00726951 /* Pods_THSDK.framework in Frameworks */,
+				A5F67D571D937D9A00B0447D /* libPowerEnterRAINBOW.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D5EF08B4B174D640F47AE8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00670FD13F5F210C063601CC /* Pods_THSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45F1676F58691EBD9C88CA90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C77DD80B3AC8024DE9EE7606 /* Pods-THSDK.debug.xcconfig */,
+				D2EF5652BC31F9A61B423053 /* Pods-THSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A5F67CB81D937A1C00B0447D = {
 			isa = PBXGroup;
 			children = (
 				A5F67CC31D937A1C00B0447D /* THSDK */,
 				A5F67CC21D937A1C00B0447D /* Products */,
+				45F1676F58691EBD9C88CA90 /* Pods */,
+				0D5EF08B4B174D640F47AE8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +401,118 @@
 				A5F67CC81D937A1C00B0447D /* AppDelegate.m */,
 				A5F67CCA1D937A1C00B0447D /* ViewController.h */,
 				A5F67CCB1D937A1C00B0447D /* ViewController.m */,
+				A5F67D4A1D937D9A00B0447D /* THStatusReuqestViewController.h */,
+				A5F67D4B1D937D9A00B0447D /* THStatusReuqestViewController.m */,
+				A5F67D661D937EC900B0447D /* CKAlertViewController.h */,
+				A5F67D671D937EC900B0447D /* CKAlertViewController.m */,
+				A5F67D681D937EC900B0447D /* THAssetsDetailViewController.h */,
+				A5F67D691D937EC900B0447D /* THAssetsDetailViewController.m */,
+				A5F67D6A1D937EC900B0447D /* THAssetsDetailViewController.xib */,
+				A5F67D6B1D937EC900B0447D /* THAssetsTableViewCell.h */,
+				A5F67D6C1D937EC900B0447D /* THAssetsTableViewCell.m */,
+				A5F67D6D1D937EC900B0447D /* THAssetsTableViewCell.xib */,
+				A5F67D6E1D937EC900B0447D /* THBindingCardViewController.h */,
+				A5F67D6F1D937EC900B0447D /* THBindingCardViewController.m */,
+				A5F67D701D937EC900B0447D /* THBindingCardViewController.xib */,
+				A5F67D711D937EC900B0447D /* THBuycardHistoryViewController.h */,
+				A5F67D721D937EC900B0447D /* THBuycardHistoryViewController.m */,
+				A5F67D731D937EC900B0447D /* THBuycardTableViewCell.h */,
+				A5F67D741D937EC900B0447D /* THBuycardTableViewCell.m */,
+				A5F67D751D937EC900B0447D /* THBuycardTableViewCell.xib */,
+				A5F67D761D937EC900B0447D /* THBuyShoppingCardViewController.h */,
+				A5F67D771D937EC900B0447D /* THBuyShoppingCardViewController.m */,
+				A5F67D781D937EC900B0447D /* THBuyShoppingCardViewController.xib */,
+				A5F67D791D937EC900B0447D /* THCardOptionTableViewCell.h */,
+				A5F67D7A1D937EC900B0447D /* THCardOptionTableViewCell.m */,
+				A5F67D7B1D937EC900B0447D /* THCardOptionTableViewCell.xib */,
+				A5F67D7C1D937EC900B0447D /* THCardTableViewCell.h */,
+				A5F67D7D1D937EC900B0447D /* THCardTableViewCell.m */,
+				A5F67D7E1D937EC900B0447D /* THCardTableViewCell.xib */,
+				A5F67D7F1D937EC900B0447D /* THCodeImageViewController.h */,
+				A5F67D801D937EC900B0447D /* THCodeImageViewController.m */,
+				A5F67D811D937EC900B0447D /* THCodeImageViewController.xib */,
+				A5F67D821D937EC900B0447D /* THForgetPWDViewController.h */,
+				A5F67D831D937EC900B0447D /* THForgetPWDViewController.m */,
+				A5F67D841D937EC900B0447D /* THForgetPWDViewController.xib */,
+				A5F67D851D937EC900B0447D /* THFreePwdSettingTableViewCell.h */,
+				A5F67D861D937EC900B0447D /* THFreePwdSettingTableViewCell.m */,
+				A5F67D871D937EC900B0447D /* THFreePwdSettingTableViewCell.xib */,
+				A5F67D881D937EC900B0447D /* THFreePWDSettingTableViewController.h */,
+				A5F67D891D937EC900B0447D /* THFreePWDSettingTableViewController.m */,
+				A5F67D8A1D937EC900B0447D /* THIdentityVerifyViewController.h */,
+				A5F67D8B1D937EC900B0447D /* THIdentityVerifyViewController.m */,
+				A5F67D8C1D937EC900B0447D /* THIdentityVerifyViewController.xib */,
+				A5F67D8D1D937EC900B0447D /* THInvoiceInfoViewController.h */,
+				A5F67D8E1D937EC900B0447D /* THInvoiceInfoViewController.m */,
+				A5F67D8F1D937EC900B0447D /* THInvoiceInfoViewController.xib */,
+				A5F67D901D937EC900B0447D /* THModifyQuickPWDViewController.h */,
+				A5F67D911D937EC900B0447D /* THModifyQuickPWDViewController.m */,
+				A5F67D921D937EC900B0447D /* THModifyQuickPWDViewController.xib */,
+				A5F67D931D937EC900B0447D /* THMyShoppingCardViewController.h */,
+				A5F67D941D937EC900B0447D /* THMyShoppingCardViewController.m */,
+				A5F67D951D937EC900B0447D /* THMyShoppingCardViewController.xib */,
+				A5F67D961D937EC900B0447D /* THNavigationController.h */,
+				A5F67D971D937EC900B0447D /* THNavigationController.m */,
+				A5F67D981D937EC900B0447D /* THOffSolvedViewController.h */,
+				A5F67D991D937EC900B0447D /* THOffSolvedViewController.m */,
+				A5F67D9A1D937EC900B0447D /* THOffSolvedViewController.xib */,
+				A5F67D9B1D937EC900B0447D /* THOnSolvedViewController.h */,
+				A5F67D9C1D937EC900B0447D /* THOnSolvedViewController.m */,
+				A5F67D9D1D937EC900B0447D /* THOnSolvedViewController.xib */,
+				A5F67D9E1D937EC900B0447D /* THOrderDetailViewController.h */,
+				A5F67D9F1D937EC900B0447D /* THOrderDetailViewController.m */,
+				A5F67DA01D937EC900B0447D /* THOrderDetailViewController.xib */,
+				A5F67DA11D937EC900B0447D /* THOrderInfoTableViewCell.h */,
+				A5F67DA21D937EC900B0447D /* THOrderInfoTableViewCell.m */,
+				A5F67DA31D937EC900B0447D /* THOrderInfoTableViewCell.xib */,
+				A5F67DA41D937EC900B0447D /* THPaySettingCheckTableViewCell.h */,
+				A5F67DA51D937EC900B0447D /* THPaySettingCheckTableViewCell.m */,
+				A5F67DA61D937EC900B0447D /* THPaySettingCheckTableViewCell.xib */,
+				A5F67DA71D937EC900B0447D /* THPaySettingNomalTableViewCell.h */,
+				A5F67DA81D937EC900B0447D /* THPaySettingNomalTableViewCell.m */,
+				A5F67DA91D937EC900B0447D /* THPaySettingNomalTableViewCell.xib */,
+				A5F67DAA1D937EC900B0447D /* THPaySettingViewController.h */,
+				A5F67DAB1D937EC900B0447D /* THPaySettingViewController.m */,
+				A5F67DAC1D937EC900B0447D /* THPaySettingViewController.xib */,
+				A5F67DAD1D937EC900B0447D /* THPaySuccessViewController.h */,
+				A5F67DAE1D937EC900B0447D /* THPaySuccessViewController.m */,
+				A5F67DAF1D937EC900B0447D /* THPaySuccessViewController.xib */,
+				A5F67DB01D937EC900B0447D /* THPayViewController.h */,
+				A5F67DB11D937EC900B0447D /* THPayViewController.m */,
+				A5F67DB21D937EC900B0447D /* THPayViewController.xib */,
+				A5F67DB31D937EC900B0447D /* THRootCollectionViewCell.h */,
+				A5F67DB41D937EC900B0447D /* THRootCollectionViewCell.m */,
+				A5F67DB51D937EC900B0447D /* THRootCollectionViewCell.xib */,
+				A5F67DB61D937EC900B0447D /* THRootViewController.h */,
+				A5F67DB71D937EC900B0447D /* THRootViewController.m */,
+				A5F67DB81D937EC900B0447D /* THRootViewController.xib */,
+				A5F67DB91D937EC900B0447D /* THSetPWDViewController.h */,
+				A5F67DBA1D937EC900B0447D /* THSetPWDViewController.m */,
+				A5F67DBB1D937EC900B0447D /* THSetPWDViewController.xib */,
+				A5F67DBC1D937EC900B0447D /* THShoppingCardDetailViewController.h */,
+				A5F67DBD1D937EC900B0447D /* THShoppingCardDetailViewController.m */,
+				A5F67DBE1D937EC900B0447D /* THShoppingCardDetailViewController.xib */,
+				A5F67DBF1D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.h */,
+				A5F67DC01D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.m */,
+				A5F67DC11D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.xib */,
+				A5F67DC21D937EC900B0447D /* THShoppingCardTableViewCell.h */,
+				A5F67DC31D937EC900B0447D /* THShoppingCardTableViewCell.m */,
+				A5F67DC41D937EC900B0447D /* THShoppingCardTableViewCell.xib */,
+				A5F67DC81D937EC900B0447D /* THStopPayCodeViewController.h */,
+				A5F67DC91D937EC900B0447D /* THStopPayCodeViewController.m */,
+				A5F67DCA1D937EC900B0447D /* THStopPayCodeViewController.xib */,
+				A5F67DCB1D937EC900B0447D /* THTradeDetailTableViewCell.h */,
+				A5F67DCC1D937EC900B0447D /* THTradeDetailTableViewCell.m */,
+				A5F67DCD1D937EC900B0447D /* THTradeDetailTableViewCell.xib */,
+				A5F67DCE1D937EC900B0447D /* THTradeDetailTableViewController.h */,
+				A5F67DCF1D937EC900B0447D /* THTradeDetailTableViewController.m */,
+				A5F67DD01D937EC900B0447D /* THTradeDetailViewController.h */,
+				A5F67DD11D937EC900B0447D /* THTradeDetailViewController.m */,
+				A5F67DD21D937EC900B0447D /* THTradeDetailViewController.xib */,
 				A5F67CCD1D937A1C00B0447D /* Main.storyboard */,
+				A5F67E1A1D937F2D00B0447D /* crypt */,
+				A5F67CE11D937D9A00B0447D /* include */,
+				A5F67E1B1D937F8100B0447D /* class */,
 				A5F67CD01D937A1C00B0447D /* Assets.xcassets */,
 				A5F67CD21D937A1C00B0447D /* LaunchScreen.storyboard */,
 				A5F67CD51D937A1C00B0447D /* Info.plist */,
@@ -79,6 +529,149 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A5F67CE11D937D9A00B0447D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A5F67CE21D937D9A00B0447D /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A5F67CE21D937D9A00B0447D /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				A5F67CE31D937D9A00B0447D /* aes.h */,
+				A5F67CE41D937D9A00B0447D /* asn1.h */,
+				A5F67CE51D937D9A00B0447D /* asn1_mac.h */,
+				A5F67CE61D937D9A00B0447D /* asn1t.h */,
+				A5F67CE71D937D9A00B0447D /* bio.h */,
+				A5F67CE81D937D9A00B0447D /* blowfish.h */,
+				A5F67CE91D937D9A00B0447D /* bn.h */,
+				A5F67CEA1D937D9A00B0447D /* buffer.h */,
+				A5F67CEB1D937D9A00B0447D /* camellia.h */,
+				A5F67CEC1D937D9A00B0447D /* cast.h */,
+				A5F67CED1D937D9A00B0447D /* cmac.h */,
+				A5F67CEE1D937D9A00B0447D /* cms.h */,
+				A5F67CEF1D937D9A00B0447D /* comp.h */,
+				A5F67CF01D937D9A00B0447D /* conf.h */,
+				A5F67CF11D937D9A00B0447D /* conf_api.h */,
+				A5F67CF21D937D9A00B0447D /* crypto.h */,
+				A5F67CF31D937D9A00B0447D /* des.h */,
+				A5F67CF41D937D9A00B0447D /* des_old.h */,
+				A5F67CF51D937D9A00B0447D /* dh.h */,
+				A5F67CF61D937D9A00B0447D /* dsa.h */,
+				A5F67CF71D937D9A00B0447D /* dso.h */,
+				A5F67CF81D937D9A00B0447D /* dtls1.h */,
+				A5F67CF91D937D9A00B0447D /* e_os2.h */,
+				A5F67CFA1D937D9A00B0447D /* ebcdic.h */,
+				A5F67CFB1D937D9A00B0447D /* ec.h */,
+				A5F67CFC1D937D9A00B0447D /* ecdh.h */,
+				A5F67CFD1D937D9A00B0447D /* ecdsa.h */,
+				A5F67CFE1D937D9A00B0447D /* engine.h */,
+				A5F67CFF1D937D9A00B0447D /* err.h */,
+				A5F67D001D937D9A00B0447D /* evp.h */,
+				A5F67D011D937D9A00B0447D /* hmac.h */,
+				A5F67D021D937D9A00B0447D /* idea.h */,
+				A5F67D031D937D9A00B0447D /* krb5_asn.h */,
+				A5F67D041D937D9A00B0447D /* kssl.h */,
+				A5F67D051D937D9A00B0447D /* lhash.h */,
+				A5F67D061D937D9A00B0447D /* md4.h */,
+				A5F67D071D937D9A00B0447D /* md5.h */,
+				A5F67D081D937D9A00B0447D /* mdc2.h */,
+				A5F67D091D937D9A00B0447D /* modes.h */,
+				A5F67D0A1D937D9A00B0447D /* obj_mac.h */,
+				A5F67D0B1D937D9A00B0447D /* objects.h */,
+				A5F67D0C1D937D9A00B0447D /* ocsp.h */,
+				A5F67D0D1D937D9A00B0447D /* opensslconf.h */,
+				A5F67D0E1D937D9A00B0447D /* opensslv.h */,
+				A5F67D0F1D937D9A00B0447D /* ossl_typ.h */,
+				A5F67D101D937D9A00B0447D /* pem.h */,
+				A5F67D111D937D9A00B0447D /* pem2.h */,
+				A5F67D121D937D9A00B0447D /* pkcs12.h */,
+				A5F67D131D937D9A00B0447D /* pkcs7.h */,
+				A5F67D141D937D9A00B0447D /* pqueue.h */,
+				A5F67D151D937D9A00B0447D /* rand.h */,
+				A5F67D161D937D9A00B0447D /* rc2.h */,
+				A5F67D171D937D9A00B0447D /* rc4.h */,
+				A5F67D181D937D9A00B0447D /* ripemd.h */,
+				A5F67D191D937D9A00B0447D /* rsa.h */,
+				A5F67D1A1D937D9A00B0447D /* safestack.h */,
+				A5F67D1B1D937D9A00B0447D /* seed.h */,
+				A5F67D1C1D937D9A00B0447D /* sha.h */,
+				A5F67D1D1D937D9A00B0447D /* srp.h */,
+				A5F67D1E1D937D9A00B0447D /* srtp.h */,
+				A5F67D1F1D937D9A00B0447D /* ssl.h */,
+				A5F67D201D937D9A00B0447D /* ssl2.h */,
+				A5F67D211D937D9A00B0447D /* ssl23.h */,
+				A5F67D221D937D9A00B0447D /* ssl3.h */,
+				A5F67D231D937D9A00B0447D /* stack.h */,
+				A5F67D241D937D9A00B0447D /* symhacks.h */,
+				A5F67D251D937D9A00B0447D /* tls1.h */,
+				A5F67D261D937D9A00B0447D /* ts.h */,
+				A5F67D271D937D9A00B0447D /* txt_db.h */,
+				A5F67D281D937D9A00B0447D /* ui.h */,
+				A5F67D291D937D9A00B0447D /* ui_compat.h */,
+				A5F67D2A1D937D9A00B0447D /* whrlpool.h */,
+				A5F67D2B1D937D9A00B0447D /* x509.h */,
+				A5F67D2C1D937D9A00B0447D /* x509_vfy.h */,
+				A5F67D2D1D937D9A00B0447D /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		A5F67E1A1D937F2D00B0447D /* crypt */ = {
+			isa = PBXGroup;
+			children = (
+				A5F67CDC1D937D9A00B0447D /* Base64.h */,
+				A5F67CDD1D937D9A00B0447D /* Base64.m */,
+				A5F67CDE1D937D9A00B0447D /* GTMBase64.h */,
+				A5F67CDF1D937D9A00B0447D /* GTMBase64.m */,
+				A5F67CE01D937D9A00B0447D /* GTMDefines.h */,
+				A5F67D301D937D9A00B0447D /* JSONKit.h */,
+				A5F67D311D937D9A00B0447D /* JSONKit.m */,
+				A5F67D321D937D9A00B0447D /* libcrypto.a */,
+				A5F67D331D937D9A00B0447D /* libPowerEnterRAINBOW.a */,
+				A5F67D341D937D9A00B0447D /* libssl.a */,
+				A5F67D411D937D9A00B0447D /* PowerEnterUITextField.h */,
+			);
+			name = crypt;
+			sourceTree = "<group>";
+		};
+		A5F67E1B1D937F8100B0447D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A5F67CDB1D937D9A00B0447D /* 关闭.png */,
+				A5F67D2E1D937D9A00B0447D /* JKCountDownButton.h */,
+				A5F67D2F1D937D9A00B0447D /* JKCountDownButton.m */,
+				A5F67D351D937D9A00B0447D /* LiuXSegmentView.h */,
+				A5F67D361D937D9A00B0447D /* LiuXSegmentView.m */,
+				A5F67D371D937D9A00B0447D /* LXSegmentScrollView.h */,
+				A5F67D381D937D9A00B0447D /* LXSegmentScrollView.m */,
+				A5F67D391D937D9A00B0447D /* Order.h */,
+				A5F67D3A1D937D9A00B0447D /* Order.m */,
+				A5F67D3B1D937D9A00B0447D /* PainObj.h */,
+				A5F67D3C1D937D9A00B0447D /* PainObj.m */,
+				A5F67D3D1D937D9A00B0447D /* PainObjDto.h */,
+				A5F67D3E1D937D9A00B0447D /* PainObjDto.m */,
+				A5F67D3F1D937D9A00B0447D /* PopPasswordView.h */,
+				A5F67D401D937D9A00B0447D /* PopPasswordView.m */,
+				A5F67D421D937D9A00B0447D /* PrefixHeader.pch */,
+				A5F67D431D937D9A00B0447D /* public_key.der */,
+				A5F67D441D937D9A00B0447D /* RSAEncryptor.h */,
+				A5F67D451D937D9A00B0447D /* RSAEncryptor.m */,
+				A5F67D461D937D9A00B0447D /* THCryptTool.h */,
+				A5F67D471D937D9A00B0447D /* THCryptTool.m */,
+				A5F67D481D937D9A00B0447D /* THNetworkTool.h */,
+				A5F67D491D937D9A00B0447D /* THNetworkTool.m */,
+				A5F67D4C1D937D9A00B0447D /* TTConst.h */,
+				A5F67D4D1D937D9A00B0447D /* TTPasswordView.h */,
+				A5F67D4E1D937D9A00B0447D /* TTPasswordView.m */,
+				A5F67D4F1D937D9A00B0447D /* User.h */,
+				A5F67D501D937D9A00B0447D /* User.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +679,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5F67CD81D937A1C00B0447D /* Build configuration list for PBXNativeTarget "THSDK" */;
 			buildPhases = (
+				FA262C42888F067E13058740 /* Check Pods Manifest.lock */,
 				A5F67CBD1D937A1C00B0447D /* Sources */,
 				A5F67CBE1D937A1C00B0447D /* Frameworks */,
 				A5F67CBF1D937A1C00B0447D /* Resources */,
+				76DEDB4C97C4ACB179EC513F /* Embed Pods Frameworks */,
+				95EBDF56A4682497BD4D0CE3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,22 +732,157 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F67DF61D937EC900B0447D /* THOnSolvedViewController.xib in Resources */,
+				A5F67DE81D937EC900B0447D /* THFreePwdSettingTableViewCell.xib in Resources */,
+				A5F67E191D937EC900B0447D /* THTradeDetailViewController.xib in Resources */,
+				A5F67DF81D937EC900B0447D /* THOrderDetailViewController.xib in Resources */,
+				A5F67DFA1D937EC900B0447D /* THOrderInfoTableViewCell.xib in Resources */,
+				A5F67DEB1D937EC900B0447D /* THIdentityVerifyViewController.xib in Resources */,
+				A5F67DE41D937EC900B0447D /* THCodeImageViewController.xib in Resources */,
+				A5F67E141D937EC900B0447D /* THStopPayCodeViewController.xib in Resources */,
+				A5F67DD91D937EC900B0447D /* THBindingCardViewController.xib in Resources */,
+				A5F67E0C1D937EC900B0447D /* THShoppingCardDetailViewController.xib in Resources */,
+				A5F67DE21D937EC900B0447D /* THCardTableViewCell.xib in Resources */,
+				A5F67DD51D937EC900B0447D /* THAssetsDetailViewController.xib in Resources */,
+				A5F67E041D937EC900B0447D /* THPayViewController.xib in Resources */,
+				A5F67DED1D937EC900B0447D /* THInvoiceInfoViewController.xib in Resources */,
+				A5F67E001D937EC900B0447D /* THPaySettingViewController.xib in Resources */,
+				A5F67E061D937EC900B0447D /* THRootCollectionViewCell.xib in Resources */,
+				A5F67DFE1D937EC900B0447D /* THPaySettingNomalTableViewCell.xib in Resources */,
 				A5F67CD41D937A1C00B0447D /* LaunchScreen.storyboard in Resources */,
+				A5F67DE61D937EC900B0447D /* THForgetPWDViewController.xib in Resources */,
+				A5F67E0E1D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.xib in Resources */,
+				A5F67DF41D937EC900B0447D /* THOffSolvedViewController.xib in Resources */,
+				A5F67D511D937D9A00B0447D /* 关闭.png in Resources */,
+				A5F67DDC1D937EC900B0447D /* THBuycardTableViewCell.xib in Resources */,
 				A5F67CD11D937A1C00B0447D /* Assets.xcassets in Resources */,
+				A5F67E081D937EC900B0447D /* THRootViewController.xib in Resources */,
+				A5F67DFC1D937EC900B0447D /* THPaySettingCheckTableViewCell.xib in Resources */,
 				A5F67CCF1D937A1C00B0447D /* Main.storyboard in Resources */,
+				A5F67E161D937EC900B0447D /* THTradeDetailTableViewCell.xib in Resources */,
+				A5F67DDE1D937EC900B0447D /* THBuyShoppingCardViewController.xib in Resources */,
+				A5F67D5F1D937D9A00B0447D /* public_key.der in Resources */,
+				A5F67E101D937EC900B0447D /* THShoppingCardTableViewCell.xib in Resources */,
+				A5F67DF11D937EC900B0447D /* THMyShoppingCardViewController.xib in Resources */,
+				A5F67E0A1D937EC900B0447D /* THSetPWDViewController.xib in Resources */,
+				A5F67DD71D937EC900B0447D /* THAssetsTableViewCell.xib in Resources */,
+				A5F67DEF1D937EC900B0447D /* THModifyQuickPWDViewController.xib in Resources */,
+				A5F67E021D937EC900B0447D /* THPaySuccessViewController.xib in Resources */,
+				A5F67DE01D937EC900B0447D /* THCardOptionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76DEDB4C97C4ACB179EC513F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THSDK/Pods-THSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95EBDF56A4682497BD4D0CE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THSDK/Pods-THSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA262C42888F067E13058740 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5F67CBD1D937A1C00B0447D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F67E131D937EC900B0447D /* THStopPayCodeViewController.m in Sources */,
+				A5F67D521D937D9A00B0447D /* Base64.m in Sources */,
+				A5F67D5D1D937D9A00B0447D /* PainObjDto.m in Sources */,
+				A5F67D5E1D937D9A00B0447D /* PopPasswordView.m in Sources */,
+				A5F67DF31D937EC900B0447D /* THOffSolvedViewController.m in Sources */,
+				A5F67D601D937D9A00B0447D /* RSAEncryptor.m in Sources */,
+				A5F67DDA1D937EC900B0447D /* THBuycardHistoryViewController.m in Sources */,
+				A5F67D5C1D937D9A00B0447D /* PainObj.m in Sources */,
+				A5F67E0B1D937EC900B0447D /* THShoppingCardDetailViewController.m in Sources */,
 				A5F67CCC1D937A1C00B0447D /* ViewController.m in Sources */,
+				A5F67DE51D937EC900B0447D /* THForgetPWDViewController.m in Sources */,
+				A5F67DEE1D937EC900B0447D /* THModifyQuickPWDViewController.m in Sources */,
+				A5F67DE71D937EC900B0447D /* THFreePwdSettingTableViewCell.m in Sources */,
+				A5F67DDD1D937EC900B0447D /* THBuyShoppingCardViewController.m in Sources */,
+				A5F67E0F1D937EC900B0447D /* THShoppingCardTableViewCell.m in Sources */,
+				A5F67E051D937EC900B0447D /* THRootCollectionViewCell.m in Sources */,
+				A5F67DD41D937EC900B0447D /* THAssetsDetailViewController.m in Sources */,
+				A5F67D611D937D9A00B0447D /* THCryptTool.m in Sources */,
+				A5F67E011D937EC900B0447D /* THPaySuccessViewController.m in Sources */,
+				A5F67DD81D937EC900B0447D /* THBindingCardViewController.m in Sources */,
+				A5F67DD31D937EC900B0447D /* CKAlertViewController.m in Sources */,
+				A5F67DE91D937EC900B0447D /* THFreePWDSettingTableViewController.m in Sources */,
+				A5F67E181D937EC900B0447D /* THTradeDetailViewController.m in Sources */,
+				A5F67D531D937D9A00B0447D /* GTMBase64.m in Sources */,
+				A5F67E031D937EC900B0447D /* THPayViewController.m in Sources */,
+				A5F67E091D937EC900B0447D /* THSetPWDViewController.m in Sources */,
+				A5F67DEC1D937EC900B0447D /* THInvoiceInfoViewController.m in Sources */,
+				A5F67D631D937D9A00B0447D /* THStatusReuqestViewController.m in Sources */,
+				A5F67DFB1D937EC900B0447D /* THPaySettingCheckTableViewCell.m in Sources */,
 				A5F67CC91D937A1C00B0447D /* AppDelegate.m in Sources */,
+				A5F67DFD1D937EC900B0447D /* THPaySettingNomalTableViewCell.m in Sources */,
+				A5F67D591D937D9A00B0447D /* LiuXSegmentView.m in Sources */,
+				A5F67DDF1D937EC900B0447D /* THCardOptionTableViewCell.m in Sources */,
+				A5F67D541D937D9A00B0447D /* JKCountDownButton.m in Sources */,
+				A5F67DFF1D937EC900B0447D /* THPaySettingViewController.m in Sources */,
+				A5F67DEA1D937EC900B0447D /* THIdentityVerifyViewController.m in Sources */,
+				A5F67DF01D937EC900B0447D /* THMyShoppingCardViewController.m in Sources */,
+				A5F67E071D937EC900B0447D /* THRootViewController.m in Sources */,
+				A5F67D5B1D937D9A00B0447D /* Order.m in Sources */,
+				A5F67DE31D937EC900B0447D /* THCodeImageViewController.m in Sources */,
+				A5F67D551D937D9A00B0447D /* JSONKit.m in Sources */,
+				A5F67D5A1D937D9A00B0447D /* LXSegmentScrollView.m in Sources */,
+				A5F67DF51D937EC900B0447D /* THOnSolvedViewController.m in Sources */,
+				A5F67DF21D937EC900B0447D /* THNavigationController.m in Sources */,
+				A5F67D651D937D9A00B0447D /* User.m in Sources */,
+				A5F67D621D937D9A00B0447D /* THNetworkTool.m in Sources */,
+				A5F67DF71D937EC900B0447D /* THOrderDetailViewController.m in Sources */,
+				A5F67E171D937EC900B0447D /* THTradeDetailTableViewController.m in Sources */,
 				A5F67CC61D937A1C00B0447D /* main.m in Sources */,
+				A5F67E0D1D937EC900B0447D /* THShoppingCardOutTimeDetialViewController.m in Sources */,
+				A5F67DD61D937EC900B0447D /* THAssetsTableViewCell.m in Sources */,
+				A5F67DE11D937EC900B0447D /* THCardTableViewCell.m in Sources */,
+				A5F67E151D937EC900B0447D /* THTradeDetailTableViewCell.m in Sources */,
+				A5F67DDB1D937EC900B0447D /* THBuycardTableViewCell.m in Sources */,
+				A5F67DF91D937EC900B0447D /* THOrderInfoTableViewCell.m in Sources */,
+				A5F67D641D937D9A00B0447D /* TTPasswordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +992,17 @@
 		};
 		A5F67CD91D937A1C00B0447D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77DD80B3AC8024DE9EE7606 /* Pods-THSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/yangshucheng/Documents/天虹/THSDK/THSDK/PrefixHeader.pch";
 				INFOPLIST_FILE = THSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/THSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shucheng.THSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,10 +1010,17 @@
 		};
 		A5F67CDA1D937A1C00B0447D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EF5652BC31F9A61B423053 /* Pods-THSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/yangshucheng/Documents/天虹/THSDK/THSDK/PrefixHeader.pch";
 				INFOPLIST_FILE = THSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/THSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shucheng.THSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -300,6 +1045,7 @@
 				A5F67CDA1D937A1C00B0447D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
