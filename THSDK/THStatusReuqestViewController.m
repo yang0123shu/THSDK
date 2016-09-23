@@ -73,45 +73,45 @@
                     objdto.painobj.user.acno = result2[@"accno"];
                     NSString *status = result2[@"status"];
                     //已开通虹支付
-//                    if ([status isEqualToString:@"1"]) {
-//                        //客户端跳转到虹包首页
-//                        if (_afterTransType == TH_APP_SDK_TRANSCODE_ROOT) {
-//                            THRootViewController *vc = [[THRootViewController alloc]initWithNibName:@"THRootViewController" bundle:nil];
-//                            [self.navigationController pushViewController:vc animated:YES];
-//                        }
-//                        else if (_afterTransType == TH_APP_SDK_TRANSCODE_MYSHOPPINGCARD)
-//                        {
-//                            //查询账户信息获取我的购物卡列表数据
-//                            //获取用户信息，包括购物卡列表
-////                            [tool GETHttpURL:@"payFunDetaQry" params:nil success:^(NSDictionary *result) {
-////                                
-////                            }];
-//                            THMyShoppingCardViewController *vc = [[THMyShoppingCardViewController alloc]initWithNibName:@"THMyShoppingCardViewController" bundle:nil];
-//                            [self.navigationController pushViewController:vc animated:YES];
-//                        }
-//                        else if (_afterTransType == TH_APP_SDK_TRANSCODE_PAYCODE)
-//                        {
-//                            //我的付款码
-//                            //获取付款码，跳转到条形码，二维码显示界面
-////                            [tool GETHttpURL:@"getUnlineQrCode" params:nil success:^(NSDictionary *result) {
-////                                
-////                            }];
-//                            THPayViewController *vc = [[THPayViewController alloc]initWithNibName:@"THPayViewController" bundle:nil];
-//                            [self.navigationController pushViewController:vc animated:YES];
-//                        }
-//                        
-//                    }
+                    if ([status isEqualToString:@"1"]) {
+                        //客户端跳转到虹包首页
+                        if (_afterTransType == TH_APP_SDK_TRANSCODE_ROOT) {
+                            THRootViewController *vc = [[THRootViewController alloc]initWithNibName:@"THRootViewController" bundle:nil];
+                            [self.navigationController pushViewController:vc animated:YES];
+                        }
+                        else if (_afterTransType == TH_APP_SDK_TRANSCODE_MYSHOPPINGCARD)
+                        {
+                            //查询账户信息获取我的购物卡列表数据
+                            //获取用户信息，包括购物卡列表
+//                            [tool GETHttpURL:@"payFunDetaQry" params:nil success:^(NSDictionary *result) {
+//                                
+//                            }];
+                            THMyShoppingCardViewController *vc = [[THMyShoppingCardViewController alloc]initWithNibName:@"THMyShoppingCardViewController" bundle:nil];
+                            [self.navigationController pushViewController:vc animated:YES];
+                        }
+                        else if (_afterTransType == TH_APP_SDK_TRANSCODE_PAYCODE)
+                        {
+                            //我的付款码
+                            //获取付款码，跳转到条形码，二维码显示界面
+//                            [tool GETHttpURL:@"getUnlineQrCode" params:nil success:^(NSDictionary *result) {
+//                                
+//                            }];
+                            THPayViewController *vc = [[THPayViewController alloc]initWithNibName:@"THPayViewController" bundle:nil];
+                            [self.navigationController pushViewController:vc animated:YES];
+                        }
+                        
+                    }
                     
                     //测试未开通虹支付
-                                        status = @"0";
-                                        objdto.painobj.user.tel = @"186******92";
-                    
-                    
-                                        if ([status isEqualToString:@"0"]) {
-                                            THOffSolvedViewController *VC = [[THOffSolvedViewController alloc]initWithNibName:@"THOffSolvedViewController" bundle:nil];
-                                            VC.phoneNumber = objdto.painobj.user.tel;
-                                            [self.navigationController pushViewController:VC animated:YES];
-                                        }
+//                    status = @"0";
+//                    objdto.painobj.user.tel = @"186******92";
+//                    
+//                    
+//                    if ([status isEqualToString:@"0"]) {
+//                        THOffSolvedViewController *VC = [[THOffSolvedViewController alloc]initWithNibName:@"THOffSolvedViewController" bundle:nil];
+//                        VC.phoneNumber = objdto.painobj.user.tel;
+//                        [self.navigationController pushViewController:VC animated:YES];
+//                    }
                     
                 }];
                 

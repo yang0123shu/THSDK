@@ -7,8 +7,11 @@
 //
 
 #import "TTPasswordView.h"
+#import "THNetworkTool.h"
 @interface TTPasswordView ()
-
+{
+    THNetworkTool *tool;
+}
 @end
 
 
@@ -26,6 +29,10 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        
+        tool = [THNetworkTool shareTool];
+        
+        
         PowerEnterUITextField *textField = [[PowerEnterUITextField alloc] initWithFrame:self.bounds];
         textField.hidden = YES;
         
@@ -46,7 +53,12 @@
             tf.text = @"*";
             if (length == 6) {
                 [weakself.textField resignFirstResponder];
-                [[NSNotificationCenter defaultCenter] postNotificationName:@"POPPASSWORDVIEWREMOVE" object:textField.value];
+                [tool getTokenBlock:^(NSString *token) {
+                    [tool POSHttpURL:@"trsPwdValidate" params:@{@"pin_data":weakself.textField.value,@"resToken":token} success:^(NSDictionary *result) {
+                        [[NSNotificationCenter defaultCenter] postNotificationName:@"POPPASSWORDVIEWREMOVE" object:textField.value];
+                    }];
+                }];
+                
             }
         };
         [self.textField becomeFirstResponder];
